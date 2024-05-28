@@ -1,0 +1,19 @@
+{
+  "name": "learn_react_summer_2024",
+  "version": "1.0.0",
+  "description": "playing with react to learn more web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DarsilRain/react.git"
+  },
+  "author": "Haley Burnell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarsilRain/react/issues"
+  },
+  "homepage": "https://github.com/DarsilRain/react#readme"
+}
