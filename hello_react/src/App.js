@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import './profile.css';
 
-function App() {
+export default function App() {
   return (
     <div>
       <h1>Welcome to my app</h1>
       <MyButton />
+      <Profile />
       <About></About>
     </div>
   );
@@ -26,4 +28,25 @@ function About() {
   );
 }
 
-export default App;
+const user = {
+  name: 'Heady Lamarr',
+  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  imageSize: 90,
+};
+
+function Profile() {
+  return(
+    <>
+      <h2>{user.name}</h2>
+      <img
+        className="avatar"
+        src={user.imageUrl}
+        alt={'Photo of ' + user.name}
+        style={{
+          width: user.imageSize,
+          height: user.imageSize
+        }}
+      />
+    </>
+  );
+}
