@@ -5,8 +5,10 @@ import './profile.css';
 export default function App() {
   return (
     <div>
-      <h1>Welcome to my app</h1>
+      <h1>Welcome to my Learning App</h1>
       <MyButton />
+      <br />
+      <button class="btn-primary" style={{margin: "70px"}}>Login Experience</button>
       <Profile />
       <About></About>
     </div>
